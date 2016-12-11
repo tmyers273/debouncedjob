@@ -14,7 +14,4 @@
             "tmyers273\\debouncedjob\\" : "packages/tmyers273/debouncedjob/src/"
         }
     }
-//    "psr-4" : {
-//        "tmyers273\\debouncedjob\\" : "src/"
-//    }
 }
