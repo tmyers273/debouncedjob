@@ -1,0 +1,20 @@
+{
+    "name": "tom/debouncedjob",
+    "description": "Debounced job package",
+    "authors": [
+        {
+            "name": "TomM",
+            "email": "TMyers273@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4" : {
+            "App\\": "app/",
+            "tmyers273\\debouncedjob\\" : "packages/tmyers273/debouncedjob/src/"
+        }
+    }
+//    "psr-4" : {
+//        "tmyers273\\debouncedjob\\" : "src/"
+//    }
+}

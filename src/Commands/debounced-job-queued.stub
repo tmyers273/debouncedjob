@@ -1,0 +1,40 @@
+<?php
+
+namespace DummyNamespace;
+
+use tmyers273\debouncedjob\DebouncedJob;
+
+class DummyClass extends DebouncedJob
+{
+
+    /**
+     * Create a new job instance.
+     *
+     * @return void
+     */
+    public function __construct()
+    {
+        parent::__construct(func_get_args());
+
+        //
+
+    }
+
+    /**
+     * Execute the job.
+     *
+     * @return void
+     */
+    public function handle()
+    {
+        if (! $this->shouldBeRun()) {
+            echo("Debounced.\n");
+            $this->delete();
+            return;
+        }
+
+        //
+
+    }
+
+}
